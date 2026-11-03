@@ -54,15 +54,21 @@
     </div>
 </header>
 
-    <!-- Page Title Banner -->
-    <section class="bg-amber-800 text-white py-12 px-4 text-center">
-        <div class="max-w-3xl mx-auto">
-            <h2 class="text-3xl md:text-4xl font-bold mb-2">බණ ශාලාව සහ ධාතු මන්දිර ඉදිකිරීම් ව්‍යාපෘතිය</h2>
-            <p class="text-amber-100 text-base md:text-lg">
-                අනාගත පරපුර උදෙසාත්, ශාසනික චිරස්ථිතිය උදෙසාත් සිදුවන මහා ශාසනික මෙහෙවර
-            </p>
-        </div>
-    </section>
+   <!-- Page Title Banner with Background Image -->
+<section class="relative bg-cover bg-center py-20 px-4 text-center text-white overflow-hidden" style="background-image: url('image2.1.jpg');">
+    
+    <!-- පසුබිම් ෆොටෝ එක උඩින් අකුරු මාර පැහැදිලිව පේන්න දාන අඳුරු ආවරණය (Dark Overlay / Gradient) -->
+    <div class="absolute inset-0 bg-gradient-to-r from-amber-950 via-amber-900/80 to-black/70 z-10"></div>
+
+    <!-- Banner එකේ අඩංගු ටෙක්ස්ට් කොටස -->
+    <div class="relative z-20 max-w-3xl mx-auto">
+        <span class="inline-block bg-amber-700 text-amber-100 text-xs font-bold px-3 py-1 rounded-full mb-3 uppercase tracking-wider">ව්‍යාපෘති තොරතුරු</span>
+        <h2 class="text-3xl md:text-5xl font-extrabold mb-3 tracking-wide drop-shadow-md">බණ ශාලාව සහ ධාතු මන්දිර ඉදිකිරීම් ව්‍යාපෘතිය</h2>
+        <p class="text-amber-100 text-base md:text-lg font-medium leading-relaxed drop-shadow">
+            අනාගත පරපුර උදෙසාත්, ශාසනික චිරස්ථිතිය උදෙසාත් සිදුවන මහා ශාසනික මෙහෙවර
+        </p>
+    </div>
+</section>
 
     <!-- Main Content Container -->
     <main class="container mx-auto px-4 py-10 space-y-12 max-w-5xl">
@@ -79,20 +85,20 @@
                 <div>
                     <div class="flex justify-between font-bold text-sm mb-1">
                         <span>බණ ශාලාව (පළමු අදියර - අත්තිවාරම සහ කොන්ක්‍රීට් කණු)</span>
-                        <span class="text-amber-800">75% නිමයි</span>
+                        <span class="text-amber-800">35% නිමයි</span>
                     </div>
                     <div class="w-full bg-gray-200 rounded-full h-4">
-                        <div class="bg-amber-600 h-4 rounded-full" style="width: 75%"></div>
+                        <div class="bg-amber-600 h-4 rounded-full" style="width: 35%"></div>
                     </div>
                 </div>
 
                 <div>
                     <div class="flex justify-between font-bold text-sm mb-1">
                         <span>ධාතු මන්දිරය සහ ගැබ්ගෙය ඉදිකිරීම</span>
-                        <span class="text-amber-800">40% නිමයි</span>
+                        <span class="text-amber-800">0% නිමයි</span>
                     </div>
                     <div class="w-full bg-gray-200 rounded-full h-4">
-                        <div class="bg-amber-600 h-4 rounded-full" style="width: 40%"></div>
+                        <div class="bg-amber-600 h-4 rounded-full" style="width: 0%"></div>
                     </div>
                 </div>
             </div>
@@ -102,24 +108,48 @@
         <section>
             <h3 class="text-2xl font-bold text-amber-900 mb-6 text-center">ඡායාරූප සහ ඉදිකිරීම් සැලසුම්</h3>
             <div class="grid md:grid-cols-3 gap-6">
-                <div class="bg-white p-4 rounded-lg shadow border border-amber-100 text-center">
-                    <div class="w-full h-48 bg-amber-100 rounded flex items-center justify-center text-amber-800 font-bold mb-3">
-                        🏛️ 3D සැලසුම
-                    </div>
-                    <p class="font-bold text-sm text-gray-700">ප්‍රෝජෙක්ට් එකේ අවසන් සැලසුම</p>
-                </div>
-                <div class="bg-white p-4 rounded-lg shadow border border-amber-100 text-center">
-                    <div class="w-full h-48 bg-amber-100 rounded flex items-center justify-center text-amber-800 font-bold mb-3">
-                        🧱 දැනට පවතින තත්ත්වය
-                    </div>
-                    <p class="font-bold text-sm text-gray-700">බණ ශාලාවේ කොන්ක්‍රීට් වැඩකටයුතු</p>
-                </div>
-                <div class="bg-white p-4 rounded-lg shadow border border-amber-100 text-center">
-                    <div class="w-full h-48 bg-amber-100 rounded flex items-center justify-center text-amber-800 font-bold mb-3">
-                        ☸ ධාතු මන්දිර සැලසුම
-                    </div>
-                    <p class="font-bold text-sm text-gray-700">ධාතු මන්දිරයේ මුල් ගල තැබීම</p>
-                </div>
+              <div class="relative rounded-lg shadow-lg overflow-hidden h-64 flex flex-col justify-end p-6 border border-amber-100 transition hover:shadow-2xl group">
+    
+    <!-- පසුබිම් ෆොටෝ එක (image2.1) සහ Zoom Effect එක -->
+    <div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 ease-in-out group-hover:scale-110" style="background-image: url('image2.2.jpg');"></div>
+
+    <!-- පසුබිම් ෆොටෝ එක උඩින් අකුරු හොඳට පේන්න දාන අඳුරු ආවරණය (Dark Overlay) -->
+    <div class="absolute inset-0 bg-black bg-opacity-40 z-10"></div>
+
+    <!-- ඇතුළේ අඩංගු දේවල් (ටෙක්ස්ට් සහ අයිකන්) -->
+    <div class="relative z-20 text-center bg-black bg-opacity-30 backdrop-blur-sm p-3 rounded-md">
+        <div class="text-3xl mb-1">🏛️</div>
+        <p class="font-bold text-sm text-white">ප්‍රෝජෙක්ට් එකේ අවසන් සැලසුම</p>
+    </div>
+</div>
+             <div class="relative rounded-lg shadow-lg overflow-hidden h-64 flex flex-col justify-end p-6 border border-amber-100 transition hover:shadow-2xl group">
+    
+    <!-- පසුබිම් ෆොටෝ එක (image2.3.jpeg) සහ Zoom Effect එක -->
+    <div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 ease-in-out group-hover:scale-110" style="background-image: url('image2.3.jpeg');"></div>
+
+    <!-- පසුබිම් ෆොටෝ එක උඩින් අකුරු හොඳට පේන්න දාන අඳුරු ආවරණය (Dark Overlay) -->
+    <div class="absolute inset-0 bg-black bg-opacity-40 z-10"></div>
+
+    <!-- ඇතුළේ අඩංගු දේවල් (ටෙක්ස්ට් සහ අයිකන්) -->
+    <div class="relative z-20 text-center bg-black bg-opacity-30 backdrop-blur-sm p-3 rounded-md">
+        <div class="text-3xl mb-1">🧱</div>
+        <p class="font-bold text-sm text-white">බණ ශාලාවේ කොන්ක්‍රීට් වැඩකටයුතු</p>
+    </div>
+</div>
+                <div class="relative rounded-lg shadow-lg overflow-hidden h-64 flex flex-col justify-end p-6 border border-amber-100 transition hover:shadow-2xl group">
+    
+    <!-- පසුබිම් ෆොටෝ එක (image2.5.jpeg) සහ Zoom Effect එක -->
+    <div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 ease-in-out group-hover:scale-110" style="background-image: url('image2.5.jpeg');"></div>
+
+    <!-- පසුබිම් ෆොටෝ එක උඩින් අකුරු හොඳට පේන්න දාන අඳුරු ආවරණය (Dark Overlay) -->
+    <div class="absolute inset-0 bg-black bg-opacity-40 z-10"></div>
+
+    <!-- ඇතුළේ අඩංගු දේවල් (ටෙක්ස්ට් සහ අයිකන්) -->
+    <div class="relative z-20 text-center bg-black bg-opacity-30 backdrop-blur-sm p-3 rounded-md">
+        <div class="text-3xl mb-1">☸</div>
+        <p class="font-bold text-sm text-white">ධාතු මන්දිරයේ මුල් ගල තැබීම</p>
+    </div>
+</div>
             </div>
         </section>
 
@@ -128,7 +158,7 @@
             <div class="text-center max-w-2xl mx-auto mb-8">
                 <h3 class="text-2xl font-bold text-amber-300 mb-2">🙏 පින්කමට දායක වීමට (Donations)</h3>
                 <p class="text-sm text-amber-200">
-                    මෙම මහා ශාසනික ඉදිකිරීම් කටයුත්ත සඳහා ද්‍රව්‍යමය වශයෙන් හෝ මුදලින් ආධාර කිරීමට කැමති සැදැහැවතුන්ට පහත විහාරස්ථ නිල බැංකු ගිණුම් වෙත පරිත්‍යාග යොමු කළ හැක.
+                    මෙම මහා ශාසනික ඉදිකිරීම් කටයුත්ත සඳහා ද්‍රව්‍යමය වශයෙන් හෝ මුදලින් ආධාර කිරීමට කැමති සැදැහැවතුන්ට පහත විහාරස්ථන නිල බැංකු ගිණුම් වෙත පරිත්‍යාග යොමු කළ හැක.
                 </p>
             </div>
 
@@ -136,10 +166,10 @@
             <div class="grid md:grid-cols-2 gap-6">
                 <!-- Account 1 -->
                 <div class="bg-amber-950/80 p-5 rounded-lg border border-amber-700 space-y-2">
-                    <h4 class="font-bold text-amber-400 text-lg">ලංකා බැංකුව (Bank of Ceylon)</h4>
-                    <p class="text-sm"><span class="text-amber-300">ගිණුමේ නම:</span> ශ්‍රී ධර්මරාජාරාම සංවර්ධන සභාව</p>
-                    <p class="text-sm"><span class="text-amber-300">ගිණුම් අංකය:</span> 123-456789-0</p>
-                    <p class="text-sm"><span class="text-amber-300">ශාඛාව:</span> [ගමේ / ළඟම නගරයේ නම]</p>
+                    <h4 class="font-bold text-amber-400 text-lg">සම්පත් බැංකුව (Sampath Bank)</h4>
+                    <p class="text-sm"><span class="text-amber-300">ගිණුමේ නම:</span> W D RATHANA THERO </p>
+                    <p class="text-sm"><span class="text-amber-300">ගිණුම් අංකය:</span> 102153371515 </p>
+                    <p class="text-sm"><span class="text-amber-300">ශාඛාව:</span> Talawa </p>
                 </div>
 
                 <!-- Account 2 -->
@@ -152,7 +182,7 @@
             </div>
 
             <div class="text-center mt-6 text-xs text-amber-300">
-                * පරිත්‍යාග කිරීමෙන් පසු ලැබීම් පත (Receipt) විහාරාධිපති ස්වාමීන් වහන්සේ වෙත WhatsApp කිරීමට: <strong>+94 7X XXX XXXX</strong>
+               <h4> * පරිත්‍යාග කිරීමෙන් පසු ලැබීම් පත (Receipt) විහාරාධිපති ස්වාමීන් වහන්සේ වෙත WhatsApp කිරීමට:<b><strong>+94 70 441 8830 </strong></b></h4>
             </div>
         </section>
 
@@ -161,8 +191,8 @@
     <!-- Footer -->
     <footer class="bg-amber-950 text-amber-200 mt-auto py-6">
         <div class="container mx-auto px-4 text-center text-sm space-y-2">
-            <p>© 2026 ශ්‍රී ධර්මරාජාරාම මහා විහාරය. සියලුම හිමිකම් ඇවිරිණි.</p>
-            <p class="text-xs text-amber-400">ඩිජිටල් දායකත්වය: ගමේ තරුණ එකමුතුව</p>
+            <p>© 2026 හිරිගොල්ලේගම අරුණපුර - ශ්‍රී බෝධිමළු විහාරය. සියලුම හිමිකම් ඇවිරිණි.</p>
+            <p class="text-xs text-amber-400">ඩිජිටල් දායකත්වය: AKIYA DIGITAL CREATER (TECH-AKIYA)</p>
         </div>
     </footer>
 	
