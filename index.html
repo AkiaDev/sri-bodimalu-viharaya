@@ -86,7 +86,7 @@
     <section class="container mx-auto px-4 py-12">
         <div class="bg-white p-6 md:p-8 rounded-xl shadow-md border-l-8 border-amber-700 max-w-4xl mx-auto flex flex-col md:flex-row items-center gap-6">
             <div class="w-32 h-32 bg-amber-200 rounded-full flex-shrink-0 flex items-center justify-center text-4xl shadow">
-                 <img src="thero.jpeg" alt="Thero Image " style="width: 200px; height: 200px; border-radius: 50%; object-fit: cover ;">
+                 <img src="thero.jpeg" alt="Thero Image " style="width: 145px; height: 145px; border-radius: 50%; object-fit: cover ;">
             </div>
             <div>
                 <h3 class="text-2xl font-bold text-amber-900 mb-2">විහාරාධිපති ස්වාමීන් වහන්සේගේ අනුශාසනාව</h3>
@@ -104,19 +104,28 @@
         
         <div class="grid md:grid-cols-3 gap-6">
             <!-- Card 1: Projects -->
-            <div class="bg-white rounded-lg shadow hover:shadow-lg transition p-6 border border-amber-100 flex flex-col justify-between">
-                <div>
-                    <div class="text-4xl mb-3">🏛️</div>
-                    <h4 class="text-xl font-bold text-amber-900 mb-2">නවාංග ඉදිකිරීම්</h4>
-                    <p class="text-gray-600 text-sm leading-relaxed mb-4">
-                        මහා සංඝරත්නයට සහ දායක පිරිසට වැඩ සිටීම සඳහා ඉදිකරනු ලබන අලුත් බණ ශාලාව සහ ධාතු මන්දිරයේ වර්තමාන ප්‍රගතිය සහ පරිත්‍යාග තොරතුරු.
-                    </p>
-                </div>
-                <a href="projects.html" class="text-amber-700 font-bold hover:underline text-sm inline-block">වැඩිදුර විස්තර →</a>
-            </div>
+            <div class="relative rounded-lg shadow-lg overflow-hidden h-80 flex flex-col justify-between p-6 bg-cover bg-center border border-amber-100 transition hover:shadow-2xl" style="background-image: url('image1.jpg');">
+    
+           <!-- පසුබිම් ෆොටෝ එක උඩින් අකුරු හොඳට පේන්න දාන අඳුරු ආවරණය (Dark Overlay) -->
+              <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+
+    <!-- උඩ කොටස: අයිකන් එක සහ මාතෘකාව -->
+               <div class="relative z-10">
+                 <div class="text-4xl mb-3">🏛️</div>
+                    <h4 class="text-xl font-bold text-white mb-2">නවාංග ඉදිකිරීම්</h4>
+                      <p class="text-amber-100 text-sm leading-relaxed">
+                          මහා සංඝරත්නයට සහ දායක පිරිසට වැඩ සිටීම සඳහා ඉදිකරනු ලබන අලුත් බණ ශාලාව සහ ධාතු මන්දිරයේ වර්තමාන ප්‍රගතිය සහ පරිත්‍යාග තොරතුරු.
+                     </p>
+               </div>
+
+    <!-- යට කොටස: වැඩිදුර විස්තර ලින්ක් එක -->
+    <div class="relative z-10 pt-4">
+        <a href="projects.html" class="text-amber-300 font-bold hover:underline text-sm inline-block bg-black bg-opacity-30 px-3 py-1 rounded transition hover:bg-opacity-50">වැඩිදුර විස්තර →</a>
+    </div>
+</div>
 
             <!-- Card 2: Daham Pasala -->
-            <div class="bg-white rounded-lg shadow hover:shadow-lg transition p-6 border border-amber-100 flex flex-col justify-between">
+            <div class="relative rounded-lg shadow-lg overflow-hidden h-80 flex flex-col justify-between p-6 bg-cover bg-center border border-amber-100 transition hover:shadow-2xl" style="background-image: url('image2.jpg');">
                 <div>
                     <div class="text-4xl mb-3">📖</div>
                     <h4 class="text-xl font-bold text-amber-900 mb-2">ශ්‍රී රත්නමාලි දහම් පාසල</h4>
@@ -128,7 +137,7 @@
             </div>
 
             <!-- Card 3: Events -->
-            <div class="bg-white rounded-lg shadow hover:shadow-lg transition p-6 border border-amber-100 flex flex-col justify-between">
+            <div class="relative rounded-lg shadow-lg overflow-hidden h-80 flex flex-col justify-between p-6 bg-cover bg-center border border-amber-100 transition hover:shadow-2xl" style="background-image: url('image3.jpg');">
                 <div>
                     <div class="text-4xl mb-3">🌸</div>
                     <h4 class="text-xl font-bold text-amber-900 mb-2">පින්කම් සහ වැඩසටහන්</h4>
